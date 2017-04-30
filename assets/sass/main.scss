@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Neuton');
+
+$break-small: 480px;
+$break-large: 760px;
+
+.landing {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  margin: 0px;
+}
+
+.content {
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Neuton', serif;
+}
+
+.content__name {
+  @media screen and (max-width: $break-small) {
+      font-size: 40px;
+  }
+
+  letter-spacing: 3px;
+  font-size: 56px;
+  font-weight: 100;
+}
+
+.content__bio {
+  @media screen and (max-width: $break-small) {
+      font-size: 14px;
+
+      div {
+        padding: 3px;
+      }
+  }
+  
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: 100;
+
+  a, a:visited {
+    color: #5A8692;
+    text-decoration: none;
+  }
+}
+
+.content__contact__list {
+  a, a:visited {
+    color: #BBB;
+    text-decoration: none;
+  }
+  a.github:hover {
+    color: #24292E;
+  }
+  a.linkedin:hover {
+    color: #0077B5;
+  }
+  a.medium:hover {
+    color: #1C9963;
+  }
+  a.instagram:hover {
+    color: #8A3AB9;
+  }
+  a.email:hover {
+    color: #1C505E;
+  }
+  a.resume:hover {
+    color: #1C505E;
+  }
+
+  li {
+    @media screen and (max-width: $break-small) {
+      display: list-item;
+      padding: 0px;
+    }
+    
+    display: inline;
+    list-style-type: none;
+    padding: 0 10px;
+  }
+  @media screen and (max-width: $break-small) {
+    -moz-column-count: 3;
+    -moz-column-gap: 10px;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 10px;
+    column-count: 3;
+    column-gap: 10px;
+  }
+  padding: 0px;
+  
+}
