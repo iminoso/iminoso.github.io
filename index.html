@@ -4,31 +4,57 @@
 <head>
     <title>Ian Minoso</title>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='/images/favicon.ico' rel='shortcut icon'>
-    <link rel="stylesheet" href="assets/css/main.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/jomolhari-3');
+        
+        body {
+            font-family: 'Jomolhari', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .name {
+            font-size: 3em;
+        }
+
+        .content {
+            text-align: center;
+            margin-bottom: 100px;
+        }
+
+        .links {
+            display: flex;
+            justify-content: space-evenly;
+        }
+    </style>
 </head>
-<body class="landing">
+
+<body class="landing bg-[#3b413c]">
     <!-- Content -->
-    <div class="content">
-        <h1 class="content__name">Ian Minoso</h1>
-        <div class="content__bio">
-            <div>Computer engineering alumnus <a href="https://uwaterloo.ca">@uWaterloo</a>.</div>
-            <div>Software engineer (service level objectives) <a href="https://www.datadoghq.com/">@Datadog</a>.</div>
-            <div>Previously of <a href="https://www.pagerduty.com">@PagerDuty</a>, <a href="https://coreos.com/">@CoreOS</a>, <a href="http://connectedlab.com/">@Connectedlab</a>,
-                <a href="https://www.compass.com/">@Compass</a>, <a href="https://canopylabs.com/">@CanopyLabs</a>.</div>
+    <div class="content text-[#daf0ee]">
+        <h1 class="name">Ian Minoso</h1>
+        <div class="bio">
+            <div>Computer engineering alumnus <a class="text-[#94d1be]" href="https://uwaterloo.ca">@uWaterloo</a>.</div>
+            <div>Software engineer (service level objectives) <a class="text-[#94d1be]" href="https://www.datadoghq.com/">@Datadog</a>.</div>
+            <div>Previously of <a class="text-[#94d1be]" href="https://www.pagerduty.com">@PagerDuty</a>, <a class="text-[#94d1be]" href="https://coreos.com/">@CoreOS</a>,
+                <a class="text-[#94d1be]" href="http://connectedlab.com/">@Connectedlab</a>, <a class="text-[#94d1be]" href="https://www.compass.com/">@Compass</a>,
+                <a class="text-[#94d1be]" href="https://canopylabs.com/">@CanopyLabs</a>.</div>
         </div>
-        <div class="content__contact">
-            <ul class="content__contact__list">
-                <li><a class="github" href="https://github.com/iminoso">github</a></li>
-                <li><a class="linkedin" href="https://linkedin.com/in/iminoso">linkedin</a></li>
-                <li><a class="medium" href="https://medium.com/@ianminoso">medium</a></li>
-                <li><a class="email" href="mailto:iminoso@gmail.com">email</a></li>
-                <li><a class="instagram" href="https://www.instagram.com/iminoso">instagram</a></li>
-                <li><a class="resume" href="http://ianminoso.com/resume.pdf">resume</a></li>
-            </ul>
-        </div>
-    </div>
+        <ul class="links my-5">
+            <li><a class="underline hover:text-[#000]" href="https://github.com/iminoso">github</a></li>
+            <li><a class="underline hover:text-[#0a66c2]" href="https://linkedin.com/in/iminoso">linkedin</a></li>
+            <li><a class="underline hover:text-[#1b8917]" href="https://medium.com/@ianminoso">medium</a></li>
+            <li><a class="underline hover:text-[#9DB5B2]" href="mailto:iminoso@gmail.com">email</a></li>
+            <li><a class="underline hover:text-[#e1306c]" href="https://www.instagram.com/iminoso">instagram</a></li>
+            <li><a class="underline hover:text-[#9DB5B2]" href="http://ianminoso.com/resume.pdf">resume</a></li>
+        </ul>
+    </div>    
 
     <!-- Scripts -->
     <script>
