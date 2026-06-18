@@ -10,10 +10,20 @@
 
 ## Experience
 
-**Wealthsimple**
-  : **Jul 2024 - Present**
+**EvenUp**
+  : **Jan 2026 - Present**
 
-*Senior Software Engineer*
+*Senior Software Engineer (AI Voice Agents)*
+  : *Toronto, Ontario*
+
+- Building backend systems for EvenUp's **voice agents platform**, enabling **AI agents** to call external providers and complete legal casework tasks for law firm clients
+- Designing retryable **voice agent call workflows** and using **LLM-based transcript analysis** to interpret call results, track outcomes, and decide next steps
+
+
+**Wealthsimple**
+  : **Jul 2024 - Dec 2025**
+
+*Senior Software Engineer (Client Platform)*
   : *Toronto, Ontario*
 
 - Designed and built a system for automated annual client profile reassessments in **Ruby**, processing 2.4M+ client profiles annually
@@ -30,7 +40,7 @@
 **Datadog**
   : **Jan 2020 - Jun 2024**
 
-*Software Engineer*
+*Software Engineer (Alerting and Service Level Objectives)*
   : *New York, NY*
 
 - Architected a change data capture pipeline using **Kafka and Debezium** to index SLO (Service Level Objective) data records into Elasticsearch
@@ -43,13 +53,13 @@
 **PagerDuty**
   : **Jun 2017 - Dec 2019**
 
-*Software Engineer*
+*Software Engineer (Developer Platform and APIs)*
   : *Toronto, Ontario*
 
 - Developed a resilient microservice for real-time computation of account features and entitlements using **Elixir, Kafka, and MySQL**, serving 1,000+ daily requests with 99.9% uptime
 - Led the development of a new API supporting the PagerDuty app ecosystem, enabling developers to create third-party integrations that expanded the platform's ecosystem and increased customer retention
 - Built a **React** based developer portal for the API platform, streamlining the registration and publishing process for custom applications
-- Implemented alert monitors in Datadog, regularly tracking metrics to identify issues with microservices and actively participated in the on-call rotation
+- Built Datadog monitors to detect service issues and supported the team's on-call rotation
 
 ## Education
 
