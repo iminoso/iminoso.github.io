@@ -1,20 +1,17 @@
-## ianminoso.com
-My Personal Site
+# ianminoso.com
 
-### Required Dependencies
-* Node
-* Sass
-* Jekyll
+Personal site hosted with GitHub Pages.
 
-### Installation and Usage
-1. `git clone https://github.com/iminoso/iminoso.github.io.git`
-2. `cd iminoso.github.io`
+The live site is a static HTML page served from `index.html`.
 
-To compile SASS: `npm run watch`
+## Files
 
-To serve site : `npm run serve`
+- `index.html`: homepage
+- `CNAME`: custom domain configuration
+- `images/favicon.ico`: site favicon
+- `resume.pdf`: generated resume PDF linked from the homepage
+- `markdown_resume/`: markdown resume source and local resume editor files
 
-The site will be locally hosted on `http://localhost:4000/`
+## Local Preview
 
-### Deployment
-`npm run deploy`
+Open `index.html` directly in a browser, or serve the directory with any static file server.
