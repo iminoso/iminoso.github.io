@@ -38,7 +38,7 @@ export const DEFAULT_MD_CONTENT = `---
   : *Toronto, Ontario*
 
 - Building backend systems for EvenUp's **voice agents platform**, enabling **AI agents** to call external providers and complete legal casework tasks for law firm clients
-- Designing retryable **voice agent call workflows** and using **LLM-based transcript analysis** to interpret call results, track outcomes, and decide next steps
+- Designing retryable **voice agent call workflows** with structured outcome tracking, call transcript analysis, and LLM-based decisioning for follow up actions
 
 
 **Wealthsimple**
@@ -47,15 +47,14 @@ export const DEFAULT_MD_CONTENT = `---
 *Senior Software Engineer (Client Platform)*
   : *Toronto, Ontario*
 
-- Designed and built a system for automated annual client profile reassessments in **Ruby**, processing 2.4M+ client profiles annually
-  - Implemented automated triggers and notifications for timely reassessments
-  - Integrated risk and suitability calculations to optimize tax savings of up to 50% for clients
-  - Refactored agreement signing services, reducing error rates by 90% and improving the in-app client signing experience
-- Led observability initiatives by developing automated tooling to monitor error rates and automatically create **SLOs and monitors** for GraphQL endpoints across multiple Ruby services
-  - Created **Datadog** monitors and Sentry error tracking to reduce incident detection time from several minutes to under 5 minutes, improving overall system reliability
-- Developed an identity conflict detection system in **Ruby** that proactively identifies duplicate client profiles and potential fraud attempts
-  - Reduced fraudulent account creation by 70% by building a profile comparison rules engine and prevented over \\$1,000 in potential monthly fraud losses
-  - Automated conflict resolution workflows saving support teams 100+ hours monthly in manual review time
+- Overhauled annual client profile reassessments in **Ruby**, enabling recurring workflows for 2.4M+ client profiles
+  - Built reassessment notifications that helped clients maintain tax-optimized profiles with savings of up to 50%
+  - Redesigned agreement signing services, reducing client facing errors by 90% and improving the in-app agreement signing experience
+- Led observability initiatives by building tooling to generate **SLOs, Datadog monitors, and Sentry alerts** for GraphQL endpoints across all Ruby services
+  - Reduced incident detection time from several minutes to under 5 minutes, improving service reliability
+- Developed an identity conflict detection system in **Ruby** to identify duplicate client profiles and potential fraud attempts
+  - Reduced fraudulent account creation by 70% with a profile comparison rules engine
+  - Automated conflict resolution workflows, saving support teams 100+ hours monthly in manual review time
 
 
 **Datadog**
@@ -80,7 +79,7 @@ export const DEFAULT_MD_CONTENT = `---
 - Developed a resilient microservice for real-time computation of account features and entitlements using **Elixir, Kafka, and MySQL**, serving 1,000+ daily requests with 99.9% uptime
 - Led the development of a new API supporting the PagerDuty app ecosystem, enabling developers to create third-party integrations that expanded the platform's ecosystem and increased customer retention
 - Built a **React** based developer portal for the API platform, streamlining the registration and publishing process for custom applications
-- Built Datadog monitors to detect service issues and supported the team's on-call rotation
+- Supported production reliability through Datadog monitoring, incident response, and team on-call ownership
 
 ## Education
 
@@ -97,6 +96,8 @@ University of Waterloo
 **Frameworks:** Flask, Ruby on Rails, NodeJS, GraphQL
 
 **Data Tooling and Infrastructure:** MySQL, PostgreSQL, Kafka, Elasticsearch, Kubernetes, Terraform
+
+**AI Developer Tools:** Claude Code, Codex, Cursor CLI
 
 **Other Interests:** Traveling, Cooking, Hiking and Camping, Running Marathons
 
