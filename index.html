@@ -9,6 +9,17 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         @import url('https://fonts.cdnfonts.com/css/jomolhari-3');
+
+        :root {
+            --cream: #fefae0;
+            --linen: #faedcd;
+            --pale-sage: #e9edc9;
+            --sage: #ccd5ae;
+            --clay: #d4a373;
+            --ink: #3f3d2b;
+            --link: #8a5f2d;
+            --link-hover: #5f6f36;
+        }
         
         body {
             font-family: 'Jomolhari', sans-serif;
@@ -17,6 +28,9 @@
             align-items: center;
             height: 100vh;
             margin: 0;
+            background:
+                linear-gradient(135deg, var(--cream) 0%, var(--pale-sage) 56%, var(--linen) 100%);
+            color: var(--ink);
         }
 
         .name {
@@ -28,6 +42,18 @@
             margin-bottom: 100px;
         }
 
+        .content a {
+            color: var(--link);
+            text-decoration-color: var(--clay);
+            text-underline-offset: 0.18em;
+            transition: color 160ms ease, text-decoration-color 160ms ease;
+        }
+
+        .content a:hover {
+            color: var(--link-hover);
+            text-decoration-color: var(--sage);
+        }
+
         .links {
             display: flex;
             justify-content: space-evenly;
@@ -35,26 +61,26 @@
     </style>
 </head>
 
-<body class="landing bg-[#3b413c]">
+<body class="landing">
     <!-- Content -->
-    <div class="content text-[#daf0ee]">
+    <div class="content">
         <h1 class="name">Ian Minoso</h1>
         <div class="bio">
-            <div class="mb-1">Computer engineering alumnus <a class="text-[#94d1be]" href="https://uwaterloo.ca">@uWaterloo</a>.</div>
-            <div class="mb-1">Software engineer (AI voice agents) <a class="text-[#94d1be]" href="https://www.evenuplaw.com/">@EvenUp</a>.</div>
+            <div class="mb-1">Computer engineering alumnus <a href="https://uwaterloo.ca">@uWaterloo</a>.</div>
+            <div class="mb-1">Software engineer (AI voice agents) <a href="https://www.evenuplaw.com/">@EvenUp</a>.</div>
             <div>Previously of
-                <a class="text-[#94d1be]" href="https://wealthsimple.com/">@Wealthsimple</a> (client platform),
-                <a class="text-[#94d1be]" href="https://www.datadoghq.com/">@Datadog</a> (monitors and service level objectives) and
-                <a class="text-[#94d1be]" href="https://www.pagerduty.com/">@PagerDuty</a> (developer platform).
+                <a href="https://wealthsimple.com/">@Wealthsimple</a> (client platform),
+                <a href="https://www.datadoghq.com/">@Datadog</a> (monitors and service level objectives) and
+                <a href="https://www.pagerduty.com/">@PagerDuty</a> (developer platform).
             </div>
         </div>
         <ul class="links my-5">
-            <li><a class="underline hover:text-[#000]" href="https://github.com/iminoso">github</a></li>
-            <li><a class="underline hover:text-[#0a66c2]" href="https://linkedin.com/in/iminoso">linkedin</a></li>
-            <li><a class="underline hover:text-[#1b8917]" href="https://medium.com/@ianminoso">medium</a></li>
-            <li><a class="underline hover:text-[#9DB5B2]" href="mailto:iminoso@gmail.com">email</a></li>
-            <li><a class="underline hover:text-[#e1306c]" href="https://www.instagram.com/iminoso">instagram</a></li>
-            <li><a class="underline hover:text-[#9DB5B2]" href="http://ianminoso.com/resume.pdf">resume</a></li>
+            <li><a class="underline" href="https://github.com/iminoso">github</a></li>
+            <li><a class="underline" href="https://linkedin.com/in/iminoso">linkedin</a></li>
+            <li><a class="underline" href="https://medium.com/@ianminoso">medium</a></li>
+            <li><a class="underline" href="mailto:iminoso@gmail.com">email</a></li>
+            <li><a class="underline" href="https://www.instagram.com/iminoso">instagram</a></li>
+            <li><a class="underline" href="http://ianminoso.com/resume.pdf">resume</a></li>
         </ul>
     </div>    
 
