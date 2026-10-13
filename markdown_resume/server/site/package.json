@@ -37,7 +37,7 @@
     "@zag-js/vue": "^0.45.0",
     "correct-case": "workspace:*",
     "gfonts-loader": "workspace:*",
-    "katex": "^0.16.10",
+    "katex": "^0.18.2",
     "localforage": "^1.10.0",
     "markdown-it-cross-ref": "workspace:*",
     "markdown-it-deflist": "^3.0.0",
